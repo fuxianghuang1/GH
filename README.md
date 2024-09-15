@@ -4,7 +4,7 @@
 - **[2024-08-02]** All code has been updated.
   
 - **[2024-08-02]** The [paper](https://arxiv.org/abs/2408.00288) has been released.
-
+  
 - **[2024-08-01]** The paper "Gradient Harmonization in Unsupervised Domain Adaptation" has been accepted by IEEE TPAMI 2024.
 
 If you find this repository useful, please cite our paper:
@@ -31,8 +31,10 @@ Download the datasets and extract them to `./data`:
 - [Visda2017](https://ai.bu.edu/visda-2017/)
 - [DomainNet](https://ai.bu.edu/M3SDA/)
 - [Digits](https://github.com/thuml/CDAN)
+- [CSS](https://drive.google.com/file/d/1wPqMw-HKmXUG2qTgYBiTNUnjz83hA2tY/view)
+- [VOC]()
 
-## Training
+## Training UDA model
 
 ### Example: Train Baseline + GH
 
@@ -94,3 +96,5 @@ python ssrt/main_SSRT_GH++.office31.py
 - **DWL**: [GitHub Repository](https://github.com/NiXiao-cqu/TransferLearning-dwl-cvpr2021)
 - **GVB**: [GitHub Repository](https://github.com/cuishuhao/GVB)
 - **SSRT**: [GitHub Repository](https://github.com/tsun/SSRT)
+- **GA**: [GitHub Repository](https://github.com/fuxianghuang1/GA)
+- **DSSD**: [GitHub Repository]()
