@@ -2,7 +2,7 @@
 
 The paper ["Gradient Harmonization in Unsupervised Domain Adaptation"](https://arxiv.org/abs/2408.00288) has been accepted by IEEE TPAMI 2024.
 
-[NOTE] **If you have any questions, please don't hesitate to [contact us](mailto:fxhuang1995@gmail.com).** 
+[NOTE] **If you have any questions, please don't hesitate to contact [Fuxiang Huang](mailto:fxhuang1995@gmail.com), [Suqi Song](mailto:songsuqi@stu.cqu.edu.cn) and [Lei Zhang](mailto:leizhang@cqu.edu.cn).** 
 ## Contents
 
 - [Prerequisites](#prerequisites)
