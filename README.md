@@ -114,9 +114,6 @@ python Retrieval/maincss_convharmonic.py --GH_new True
 python Detection/train.py
 ```
 
-```bash
-python Detection/test.py
-```
 ## Acknowledgements
 We would like to acknowledge the following repositories that contributed to our work:
 - **CDAN**: [GitHub Repository](https://github.com/cuishuhao/GVB)
