@@ -10,9 +10,6 @@ If you find this repository is useful for you, please cite our paper:
   title={Gradient Harmonization in Unsupervised Domain Adaptation},
   author={Huang, Fuxiang and Song, Suqi and Zhang, Lei},
   journal={IEEE transactions on pattern analysis and machine intelligence},
-  volume={},
-  number={},
-  pages={},
   year={2024},
   publisher={IEEE}
 }
