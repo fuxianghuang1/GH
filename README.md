@@ -12,22 +12,24 @@ The paper ["Gradient Harmonization in Unsupervised Domain Adaptation"](https://a
 - [Training Detection model](#training-detection-model)
 - [Acknowledgements](#acknowledgements)
 
-If you find this repository useful, please cite our paper:
+If you find this repository useful, please consider citing our paper:
 
 ```bibtex
 @article{huang2024gh,
   title={Gradient Harmonization in Unsupervised Domain Adaptation},
   author={Huang, Fuxiang and Song, Suqi and Zhang, Lei},
-  journal={IEEE transactions on pattern analysis and machine intelligence},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
   year={2024},
   publisher={IEEE}
 }
 ```
 
 ## Prerequisites
+To run the code, please ensure you have the following dependencies installed:
 - Python: `==3.8`
 - PyTorch: `==1.8.1`
 - CUDA Toolkit: `==11.1`
+
 
 ## Data Preparation
 Download the datasets and extract them to `./data`:
@@ -41,7 +43,11 @@ Download the datasets and extract them to `./data`:
 
 ## Training UDA model
 
-### Example: Train Baseline + GH
+
+
+## Training
+
+### Example: Training Baseline with Gradient Harmonization (GH)
 
 #### CDAN
 ```bash
@@ -68,7 +74,7 @@ python gvb/train_image.py --gpu_id 0 --GVBG 1 --GVBD 1 --num_iterations 8004 --d
 python ssrt/main_SSRT_GH.office31.py
 ```
 
-### Example: Train Baseline + GH++
+### Example: Training Baseline with Enhanced Gradient Harmonization (GH++)
 
 #### CDAN
 ```bash
@@ -96,13 +102,13 @@ python ssrt/main_SSRT_GH++.office31.py
 ```
 
 ## Training Retrieval model
-### Example: Train Baseline + GH++
+### Example: Training Baseline with Enhanced Gradient Harmonization (GH++)
 ```bash
 python Retrieval/maincss_convharmonic.py --GH_new True
 ```
 
 ## Training Detection model
-### Example: Train Baseline + GH++
+### Example: Training Baseline with Enhanced Gradient Harmonization (GH++)
 
 ```bash
 python Detection/train.py
@@ -112,6 +118,7 @@ python Detection/train.py
 python Detection/test.py
 ```
 ## Acknowledgements
+We would like to acknowledge the following repositories that contributed to our work:
 - **CDAN**: [GitHub Repository](https://github.com/cuishuhao/GVB)
 - **MCD**: [GitHub Repository](https://github.com/thuml/Transfer-Learning-Library)
 - **DWL**: [GitHub Repository](https://github.com/NiXiao-cqu/TransferLearning-dwl-cvpr2021)
