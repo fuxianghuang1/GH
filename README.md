@@ -1,11 +1,20 @@
 # Gradient Harmonization in Unsupervised Domain Adaptation
 
 ## News
-- **[2024-08-02]** All code has been updated.
+- **[2024-09-15]** All code has been updated.
   
 - **[2024-08-02]** The [paper](https://arxiv.org/abs/2408.00288) has been released.
   
 - **[2024-08-01]** The paper "Gradient Harmonization in Unsupervised Domain Adaptation" has been accepted by IEEE TPAMI 2024.
+
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Data Preparation](#data-preparation)
+- [Training UDA model](#training-uda-model)
+- [Training Retrieval model](#training-retrieval-model)
+- [Training Detection model](#training-detection-model)
+- [Acknowledgements](#acknowledgements)
 
 If you find this repository useful, please cite our paper:
 
@@ -90,6 +99,22 @@ python gvb/train_image.py --gpu_id 0 --GVBG 1 --GVBD 1 --num_iterations 8004 --d
 python ssrt/main_SSRT_GH++.office31.py
 ```
 
+## Training Retrieval model
+### Example: Train Baseline + GH++
+```bash
+python Retrieval/maincss_convharmonic.py --GH_new True
+```
+
+## Training Detection model
+### Example: Train Baseline + GH++
+
+```bash
+python Detection/train.py
+```
+
+```bash
+python Detection/test.py
+```
 ## Acknowledgements
 - **CDAN**: [GitHub Repository](https://github.com/cuishuhao/GVB)
 - **MCD**: [GitHub Repository](https://github.com/thuml/Transfer-Learning-Library)
