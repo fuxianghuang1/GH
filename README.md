@@ -1,13 +1,9 @@
 # Gradient Harmonization in Unsupervised Domain Adaptation
 
-## News
-- **[2024-09-15]** All code has been updated.
-  
-- **[2024-08-02]** The [paper](https://arxiv.org/abs/2408.00288) has been released.
-  
-- **[2024-08-01]** The paper "Gradient Harmonization in Unsupervised Domain Adaptation" has been accepted by IEEE TPAMI 2024.
+The paper ["Gradient Harmonization in Unsupervised Domain Adaptation"](https://arxiv.org/abs/2408.00288) has been accepted by IEEE TPAMI 2024.
 
-## Table of Contents
+[NOTE] **If you have any questions, please don't hesitate to [contact us](mailto:fxhuang1995@gmail.com).** 
+## Contents
 
 - [Prerequisites](#prerequisites)
 - [Data Preparation](#data-preparation)
