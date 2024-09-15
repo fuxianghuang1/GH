@@ -1,4 +1,4 @@
-# [TPAMI 2024] GH/GH++:Gradient Harmonization in Unsupervised Domain Adaptation
+# [IEEE TPAMI 2024] GH/GH++:Gradient Harmonization in Unsupervised Domain Adaptation
 
 The paper ["Gradient Harmonization in Unsupervised Domain Adaptation"](https://arxiv.org/abs/2408.00288) has been accepted by IEEE TPAMI 2024.
 
