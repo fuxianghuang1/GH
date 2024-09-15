@@ -120,8 +120,8 @@ We would like to acknowledge the following repositories that contributed to our 
 - **DWL**: [GitHub Repository](https://github.com/NiXiao-cqu/TransferLearning-dwl-cvpr2021)
 - **GVB**: [GitHub Repository](https://github.com/cuishuhao/GVB)
 - **SSRT**: [GitHub Repository](https://github.com/tsun/SSRT)
-- **GA**: [GitHub Repository](https://github.com/fuxianghuang1/GA)
-- **DSSD**: [GitHub Repository]()
+- **GA(TIRG)**: [GitHub Repository](https://github.com/fuxianghuang1/GA)
+
 
 
 [NOTE] **If you have any questions, please don't hesitate to contact [Fuxiang Huang](mailto:fxhuang1995@gmail.com), [Suqi Song](mailto:songsuqi@stu.cqu.edu.cn) and [Lei Zhang](mailto:leizhang@cqu.edu.cn).** 
