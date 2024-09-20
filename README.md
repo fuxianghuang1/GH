@@ -36,7 +36,7 @@ Download the datasets and extract them to `./data`:
 - [Office-Home](https://www.hemanthdv.org/officeHomeDataset.html)
 - [Visda2017](https://ai.bu.edu/visda-2017/)
 - [DomainNet](https://ai.bu.edu/M3SDA/)
-- [Digits](https://github.com/thuml/CDAN)
+- [Digits](https://drive.google.com/file/d/1ZUMdVRyXL6EOICCgHRQZXZhrui-8kYvy/view?usp=sharing)
 - [CSS](https://drive.google.com/file/d/1wPqMw-HKmXUG2qTgYBiTNUnjz83hA2tY/view)
 - [VOC](http://host.robots.ox.ac.uk/pascal/VOC)
 
